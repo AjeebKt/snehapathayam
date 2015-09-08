@@ -68,11 +68,18 @@ nav ul li {
 }
 nav ul li a{
 	color: #fff;
+	display: block;
 	text-decoration: none;
 	font-size: 16pt;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	-ms-transition: color 0.2s ease;
+	-o-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+	
 }
 nav ul li:hover a{
-	color: #ffdd00;
+	color: rgba(33, 33, 33, 0.7);
 }
 .login {
 	width: 150px;
@@ -88,7 +95,6 @@ nav ul li:hover a{
 	margin: 0;
 }
 .help-sec {
-	text-align: center;
 	line-height: 120px;
 	background-color: #ae9700;
 	
@@ -102,7 +108,7 @@ nav ul li:hover a{
 	color: #fff;
 }
 .help-head h1{
-	margin: 0;
+	margin: 0 0 0 15%;
 	font-size: 24pt;
 	color: #fff;
 }
@@ -110,6 +116,7 @@ nav ul li:hover a{
 	position: relative;
 	width: 66.66%;
 	float: left;
+	text-align: center;
 	list-style: none;
 }
 .how-help li{
@@ -209,7 +216,7 @@ nav ul li:hover a{
 	background-color: #aaa;
 	margin: 0 auto;
 	border-radius: 5px;
-	min-height: 210px;
+	min-height: 200px;
 	/*overflow: hidden;*/
 }
 .caption:before{
@@ -235,7 +242,8 @@ nav ul li:hover a{
 .site-map {
 	background-color: #666;
 	margin: 0;
-
+	width: 100%;
+	float: left;
 }
 .site-map-list {
 	width: 60%;
@@ -250,7 +258,7 @@ nav ul li:hover a{
 .site-map-list li a{
 	display: block;
 	padding-left: 40px;
-	margin: 10px 0;
+	margin: 0px 0 10px;
 	color: #fff;
 }
 .site-map-list li a:first-child{
@@ -261,5 +269,58 @@ nav ul li:hover a{
 }
 .site-map-list li a h3{
 	color: #ffdd00;
+}
+.address {
+	float: right;
+	color: #fff;
+	width: 35%;
+	margin-top: 30px;
+}
+.address p {
+	margin: 10px 0 0px 30px;
+}
+.connect {
+	width: 100%;
+	float: left;
+}
+.social-links {
+	max-width: 50%;
+	margin: 30px auto;
+	overflow: hidden;
+	text-align: center;
+}
+.connect-us {
+	max-width: 40%;
+	float: left;
+	margin: 0 20px;
+}
+.connect-us h3 {
+	font-weight: lighter;
+	line-height: 40px;
+}
+.connect button {
+	width: 100px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	border: 0;
+	background-color: #cfb300;
+}
+.connect button:hover {
+	background-color: #ae9700;
+}
+.social-net {
+	max-width: 30%;
+	float: left;
+	margin: 0 20px;
+}
+.social-net img {
+	border-radius: 50%;
+}
+.rights {
+	width: 100%;
+	margin: 10px 0;
+	float: left;
+	color: #fff;
 }
 /*ffdd00*/
