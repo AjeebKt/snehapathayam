@@ -4,7 +4,7 @@ body {
 header {
 	width: 100%;
 	float: left;
-	background-color: #008a67;
+	background-color: #ae9700;
 	padding: 5px 0;
 }
 h3 {
@@ -90,7 +90,7 @@ nav ul li:hover a{
 .help-sec {
 	text-align: center;
 	line-height: 120px;
-	background-color: #008a67;
+	background-color: #ae9700;
 	
 }
 .help-head {
@@ -124,20 +124,20 @@ nav ul li:hover a{
     left: -50px;
     top: 0px;
     border-width: 70px 0px 50px 50px;
-    border-color: #008a67 #666;
+    border-color: #ae9700 #666;
     
 }
 .how-help li h3{
 	font-size: 18pt;
 }
 .how-help li:hover .kunipp{
-	border-color: #16A07D #666;
+	border-color: #cfb300 #666;
 }
 .how-help li:hover {
-	background-color: #16A07D;
+	background-color: #cfb300;
 }
-.how-help li:hover h3 {
-	color: #ffdd00;
+.how-help li h3 {
+	color: #fff;
 }
 .how-help li a{
 	display: block;
