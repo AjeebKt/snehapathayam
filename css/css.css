@@ -5,7 +5,7 @@ header {
 	width: 100%;
 	float: left;
 	background-color: #008a67;
-	padding: 20px 0;
+	padding: 5px 0;
 }
 h3 {
 	color: #333;
@@ -15,6 +15,7 @@ section {
 	width: 100%;
 	float: left;
 	position: relative;
+	margin-bottom: 30px;
 }
 .container {
 	width: 90%;
@@ -32,6 +33,7 @@ section {
 	float: left;
 	width: 80%;
 	text-align: center;
+	margin: 35px 0 0;
 }
 .search {
 	width: 300px;
@@ -70,7 +72,7 @@ nav ul li a{
 	font-size: 16pt;
 }
 nav ul li:hover a{
-	color: #F08B1D;
+	color: #ffdd00;
 }
 .login {
 	width: 150px;
@@ -81,6 +83,9 @@ nav ul li:hover a{
 	border-radius: 5px;
 	float: right;
 	margin-top: 5px;
+}
+.slider {
+	margin: 0;
 }
 .help-sec {
 	text-align: center;
@@ -132,7 +137,7 @@ nav ul li:hover a{
 	background-color: #16A07D;
 }
 .how-help li:hover h3 {
-	color: #fff;
+	color: #ffdd00;
 }
 .how-help li a{
 	display: block;
@@ -145,13 +150,15 @@ nav ul li:hover a{
 	width: 50%;
 	float: left;
 	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 30px;
 }
 
 .pathayam-details li h2, .pathayam-details li p{
 	margin: 20px 0;
 	line-height: 1.5;
-	box-sizing: border-box;
-	padding-right: 30px;
+	/*box-sizing: border-box;*/
+	/*padding-right: 30px;*/
 }
 .read-more {
 	width: 120px;
@@ -160,10 +167,10 @@ nav ul li:hover a{
 	font-size: 16px;
 	color: #fff;
 	float: right;
-	margin-right: 50px;
+	/*margin-right: 50px;*/
 	border: 0;
 	border-radius: 3px;
-	background-color: #666;
+	background-color: rgba(33, 33, 33, 0.5);
 	-webkit-transition: background-color 0.15s ease;
 	-moz-transition: background-color 0.15s ease;
 	-ms-transition: background-color 0.15s ease;
@@ -172,24 +179,28 @@ nav ul li:hover a{
 	
 }
 .read-more:hover {
-	background-color: #333;
+	background-color: rgba(33, 33, 33, 0.7);
 }
 .testimonial {
+	background-color: rgba(215, 215, 215, 0.4);
+	margin: 0;
+}
+.testimonial-list {
 	width: 100%;
 	float: left;
 	text-align: center;
 	list-style: none;
 	margin-top: 30px;
 }
-.testimonial li{
+.testimonial-list li{
 	width: 33.33%;
 	float: left;
 }
-.testimonial li img{
+.testimonial-list li img{
 	margin-top: 30px;
 	border-radius: 50%;
 }
-.testimonial li h4, .testimonial li p{
+.testimonial-list li h4, .testimonial-list li p{
 	margin: 10px;
 }
 .caption {
@@ -216,9 +227,39 @@ nav ul li:hover a{
   left: calc(50% - 20px);
   bottom: 0;
   border-width: 20px 20px 0;
-  border-color: #aaa transparent transparent;
+  border-color: #8D8D8D transparent transparent;
 }
 .caption p{
 	padding: 20px 10px;
 }
+.site-map {
+	background-color: #666;
+	margin: 0;
 
+}
+.site-map-list {
+	width: 60%;
+	list-style: none;
+	float: left;
+	padding-top: 30px;
+}
+.site-map-list li{
+	width: 33.33%;
+	float: left;
+}
+.site-map-list li a{
+	display: block;
+	padding-left: 40px;
+	margin: 10px 0;
+	color: #fff;
+}
+.site-map-list li a:first-child{
+	padding: 0;
+}
+.site-map-list li a:hover {
+	text-decoration: underline;
+}
+.site-map-list li a h3{
+	color: #ffdd00;
+}
+/*ffdd00*/
