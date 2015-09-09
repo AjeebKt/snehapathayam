@@ -98,10 +98,10 @@
 	-o-transition: background 0.15s ease;
 	transition: background 0.15s ease;
 	
-	background: rgba(33,33,33,0.5);
+	background-color: #cfb300;
 }
 .da-slide .da-link:hover{
-	background: rgba(33,33,33,0.7);
+	background-color: #ae9700;
 }
 .da-dots{
 	width: 100%;

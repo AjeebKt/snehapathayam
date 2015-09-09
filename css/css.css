@@ -1,5 +1,7 @@
 body {
 	font-family: sans-serif;
+	background: #e0e3ec url(../images/bg.png) repeat top left;
+	color: #333;
 }
 header {
 	width: 100%;
@@ -177,7 +179,7 @@ nav ul li:hover a{
 	/*margin-right: 50px;*/
 	border: 0;
 	border-radius: 3px;
-	background-color: rgba(33, 33, 33, 0.5);
+	background-color: #cfb300;
 	-webkit-transition: background-color 0.15s ease;
 	-moz-transition: background-color 0.15s ease;
 	-ms-transition: background-color 0.15s ease;
@@ -186,7 +188,7 @@ nav ul li:hover a{
 	
 }
 .read-more:hover {
-	background-color: rgba(33, 33, 33, 0.7);
+	background-color: #ae9700;
 }
 .testimonial {
 	background-color: rgba(215, 215, 215, 0.4);
@@ -240,10 +242,11 @@ nav ul li:hover a{
 	padding: 20px 10px;
 }
 .site-map {
+	width: 100%;
+	position: relative;
+	float: left;
 	background-color: #666;
 	margin: 0;
-	width: 100%;
-	float: left;
 }
 .site-map-list {
 	width: 60%;
@@ -284,25 +287,24 @@ nav ul li:hover a{
 	float: left;
 }
 .social-links {
-	max-width: 50%;
+	max-width: 550px;
 	margin: 30px auto;
 	overflow: hidden;
 	text-align: center;
 }
 .connect-us {
-	max-width: 40%;
 	float: left;
 	margin: 0 20px;
 }
 .connect-us h3 {
 	font-weight: lighter;
-	line-height: 40px;
+	margin: 10px 0;
+	color: #fff;
 }
 .connect button {
 	width: 100px;
 	float: left;
 	height: 40px;
-	line-height: 40px;
 	border: 0;
 	background-color: #cfb300;
 }
@@ -310,17 +312,53 @@ nav ul li:hover a{
 	background-color: #ae9700;
 }
 .social-net {
-	max-width: 30%;
 	float: left;
 	margin: 0 20px;
 }
 .social-net img {
 	border-radius: 50%;
 }
+/*.connect {
+	width: 100%;
+	float: left;
+}
+.social-links {
+	list-style: none;
+	text-align: center;
+}
+.social-links li {
+	margin: 0 20px;
+}
+.social-links li h3 {
+	font-weight: lighter;
+}
+.social-links li button {
+	width: 100px;
+	height: 40px;
+	border: 0;
+	background-color: #cfb300;
+}
+.social-links li button:hover {
+	background-color: #ae9700;
+}
+.social-links li img {
+	border-radius: 50%;
+}*/
+
 .rights {
 	width: 100%;
 	margin: 10px 0;
 	float: left;
 	color: #fff;
+}
+
+/* About */
+
+.about-us{
+	float: left;
+}
+.about-us p {
+	float: left;
+	margin: 20px 50px;
 }
 /*ffdd00*/

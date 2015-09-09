@@ -18,15 +18,14 @@
 			<div class="container">
 				<div class="logo">
 					<img src="images/path1.png" alt="">
-					<!-- <h2>Sneha Pathayam</h2> -->
 				</div>
 				<div class="menu">
 					<nav>
 						<ul class="navigation-menu">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Give</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="give.php">Give</a></li>
+							<li><a href="about.php">About</a></li>
+							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</nav>
 					<div class="search">
@@ -156,74 +155,6 @@
 				</ul>
 			</div>
 		</section>
-		<footer class="site-map">
-			<div class="container">
-				<ul class="site-map-list">
-					<li>
-						<a href="#">
-							<h3>Home</h3>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<h3>About</h3>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<h3>Contact</h3>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-						<a href="#">
-							<p>link</p>
-						</a>
-					</li>
-				</ul>
-				<div class="address">
-					<h4>Address</h4>
-					<p>Snehapathayam,</p>
-					<p>Nilambur Nagarasabha.</p>
-				</div>
-				<div class="connect">
-					<div class="social-links">
-						<div class="connect-us">
-							<h3>Call Us- <strong>+91-25250025</strong></h3>
-						</div>
-						<button>Contact</button>
-						<div class="social-net">
-							<img src="images/twitter.png" alt="">
-							<img src="images/twitter.png" alt="">
-							<img src="images/twitter.png" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="rights">
-					<p>All Right Recived @ SnehaPathayam</p>
-				</div>
-			</div>
-		</footer>
+		<?php include 'footer.php'; ?>
     </body>
 </html>
