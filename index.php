@@ -31,7 +31,7 @@
 					<div class="search">
 						<input type="text">
 					</div>
-					<button class="login">Login</button>
+					<button class="login">Register</button>
 				</div>
 			</div>
 		</header>

@@ -353,6 +353,120 @@ nav ul li:hover a{
 	color: #fff;
 }
 
+/* give */
+
+.what-give {
+	list-style: none;
+	width: 70%;
+	padding: 0;
+	margin: 80px auto;
+}
+.what-give li{
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px 20px;
+  -webkit-transition: transform 0.2s ease;
+  -moz-transition: transform 0.2s ease;
+  -ms-transition: transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  
+}
+.what-give li:hover {
+	-webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.what-give li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+
+}
+.what-give li img {
+	max-width: 100%;
+}
+.what-give li div {
+	width: 100%;
+	text-align:center;
+	line-height: 50px;
+	color: #fff;
+	float: left;
+	height: 50px;
+	background-color: #cfb300;
+}
+
+/* donerForm */
+
+.doner-form {
+	width: 630px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.form-box {
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+}
+.grp {
+	width: 100%;
+	float: left;
+	margin: 10px 0;
+}
+.form-box input {
+	width: 100%;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: transparent;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-top: 5px;
+}
+.form-box textarea {
+	width: 100%;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: transparent;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-top: 5px;
+}
+.form-box button {
+	width: 100px;
+	background-color: #cfb300;
+	border: 0;
+	border-radius: 3px;
+	height: 35px;
+}
+.form-box button:hover {
+	background-color: #ae9700;
+}
+
+/*Registration Form*/
+
+.registration-form {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.form-box ul {
+	width: 100%;
+	padding: 0;
+	list-style: none;
+}
+.form-list {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 5px 20px;
+}
+.grp-txa {
+	box-sizing: border-box;
+	padding: 5px 20px;
+}
+
 /* About */
 
 .about-us{
@@ -365,11 +479,15 @@ nav ul li:hover a{
 
 /* Contact */
 
-.map, .map-canvas{
+.map, #gmap_canvas {
 	width: 100%;
 	height: 420px;
 	float: left;
-	background-color: #ccc;
+	overflow: hidden;
+}
+#gmap_canvas img {
+	max-width:none!important;
+	background:none!important;
 }
 .connect-links {
 	text-align: center;

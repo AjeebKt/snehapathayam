@@ -4,6 +4,24 @@
 	<meta charset="UTF-8">
 	<title>About Us</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript">
+		 function init_map(){
+		 		var myOptions = {
+		 				zoom:17,
+						scrollwheel: false,
+		 				center:new google.maps.LatLng(11.278083,76.228387),
+			 			mapTypeId: google.maps.MapTypeId.ROADMAP};
+		 			map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+		 			marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(11.278083, 76.228387)});
+		 			// infowindow = new google.maps.InfoWindow({content:"<b>Nilambur</b>" });
+		 			google.maps.event.addListener(marker, "click", 
+		 				function(){
+		 					infowindow.open(map,marker);
+		 					});
+ 					}
+ 					google.maps.event.addDomListener(window, 'load', init_map);
+	</script>
 	<link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
@@ -24,12 +42,12 @@
 				<div class="search">
 					<input type="text">
 				</div>
-				<button class="login">Login</button>
+				<button class="login">Register</button>
 			</div>
 		</div>
 	</header>
 	<section class="map">
-		<div id="gmap-canvas" class="map-canvas"></div>
+		<div id="gmap_canvas"></div>
 	</section>
 	<section>
 		<div class="container">.
