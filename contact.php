@@ -28,9 +28,36 @@
 			</div>
 		</div>
 	</header>
+	<section class="map">
+		<div id="gmap-canvas" class="map-canvas"></div>
+	</section>
 	<section>
-		<div class="container">
-			
+		<div class="container">.
+			<div class="connect-links">
+				<img src="images/twitter.png" alt="">
+				<img src="images/twitter.png" alt="">
+				<img src="images/twitter.png" alt="">
+				<img src="images/twitter.png" alt="">
+			</div>
+			<div class="message-container">
+				<div class="message">
+					<div class="msg-box">
+						<div class="group">
+							<label for="name">Name</label><br>
+							<input id="name" placeholder="Name" type="text">
+						</div>
+						<div class="group">
+							<label for="email">Email</label><br>
+							<input id="email" placeholder="Email" type="text">
+						</div>
+						<div class="group">
+							<label for="comments">Comments</label><br>
+							<textarea name="comments" id="comments" cols="30" rows="7" placeholder="Write your Comments.." ></textarea>
+						</div>
+						<button>Send</button>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<?php include 'footer.php'; ?>

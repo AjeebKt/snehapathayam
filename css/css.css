@@ -20,9 +20,10 @@ section {
 	margin-bottom: 30px;
 }
 .container {
+	position: relative;
 	width: 90%;
 	margin: 0 auto;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .logo {
 	width: 20%;
@@ -361,4 +362,75 @@ nav ul li:hover a{
 	float: left;
 	margin: 20px 50px;
 }
-/*ffdd00*/
+
+/* Contact */
+
+.map, .map-canvas{
+	width: 100%;
+	height: 420px;
+	float: left;
+	background-color: #ccc;
+}
+.connect-links {
+	text-align: center;
+	width: 40%;
+	float: left;
+}
+.message-container {
+	height: 350px;
+	float: left;
+}
+.message {
+	position: absolute;
+	top: -100px;
+	right: 0;
+	width: 60%;
+	background-color: #fff;
+	z-index: 10;
+}
+.msg-box {
+	width: 90%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.group {
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+.group input {
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #fff;
+	width: 100%;
+	margin: 5px 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.group textarea {
+	border: 1px solid #333;
+	border-radius: 3px;
+	width: 100%;
+	margin: 5px 0;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.msg-box button {
+	float: right;
+	border: 0;
+	width: 100px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #cfb300;
+}
+.msg-box button:hover {
+	background-color: #ae9700;
+}
+
+/*
+
+	#ffdd00
+	#cfb300
+	@ hover-#ae9700
+*/
