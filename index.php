@@ -31,7 +31,7 @@
 					<div class="search">
 						<input type="text">
 					</div>
-					<button class="login">Register</button>
+					<a href="registerForm.php" class="login">Register</a>
 				</div>
 			</div>
 		</header>

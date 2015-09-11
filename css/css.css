@@ -87,12 +87,24 @@ nav ul li:hover a{
 .login {
 	width: 150px;
 	float: left;
-	height: 40px;
-	border: 2px solid #333;
+	height: 35px;
+	border: 2px solid #cfb300;
 	background-color: transparent;
 	border-radius: 5px;
 	float: right;
-	margin-top: 5px;
+	margin-top: 4px;
+	line-height: 35px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: background-color 0.2s ease;
+	-moz-transition: background-color 0.2s ease;
+	-ms-transition: background-color 0.2s ease;
+	-o-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	
+}
+.login:hover {
+	background-color: #cfb300;
 }
 .slider {
 	margin: 0;
@@ -461,6 +473,18 @@ nav ul li:hover a{
 	width: 50%;
 	box-sizing: border-box;
 	padding: 5px 20px;
+}
+.form-list input[type=radio]{
+	width: unset;
+	height: unset;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.form-list select {
+	border: 1px solid #333;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 .grp-txa {
 	box-sizing: border-box;
