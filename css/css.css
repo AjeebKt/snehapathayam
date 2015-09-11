@@ -314,14 +314,17 @@ nav ul li:hover a{
 	margin: 10px 0;
 	color: #fff;
 }
-.connect button {
+.connect-button {
 	width: 100px;
 	float: left;
 	height: 40px;
+	line-height: 40px;
 	border: 0;
+	border-radius: 3px;
+	color: #fff;
 	background-color: #cfb300;
 }
-.connect button:hover {
+.connect-button:hover {
 	background-color: #ae9700;
 }
 .social-net {

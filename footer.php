@@ -54,7 +54,7 @@
 				<div class="connect-us">
 					<h3>Call Us- <strong>+91-25250025</strong></h3>
 				</div>
-				<button>Contact</button>
+				<a class="connect-button">Contact</a>
 				<div class="social-net">
 					<img src="images/twitter.png" alt="">
 					<img src="images/twitter.png" alt="">
@@ -62,21 +62,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="connect">
-			<ul class="social-links">
-				<li>
-					<h3>Call Us- <strong>+91-25250025</strong></h3>
-				</li>
-				<li>
-					<button>Contact</button>
-				</li>
-				<li>
-					<img src="images/twitter.png" alt="">
-					<img src="images/twitter.png" alt="">
-					<img src="images/twitter.png" alt="">
-				</li>
-			</ul>
-		</div> -->
 		<div class="rights">
 			<p>All Right Recived @ SnehaPathayam</p>
 		</div>
