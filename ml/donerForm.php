@@ -27,6 +27,9 @@
 				<div class="search">
 					<input type="text">
 				</div>
+				<div class="en-ml">
+					<a href="../donerForm.php">English</a>
+				</div>
 				<a href="registerForm.php" class="login">ആപേക്ഷ</a>
 			</div>
 		</div>
