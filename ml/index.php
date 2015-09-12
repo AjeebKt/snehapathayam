@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
@@ -30,6 +30,10 @@
 					</nav>
 					<div class="search">
 						<input type="text">
+					</div>
+					<div class="en-ml">
+						<a href="#">English</a>
+						<a href="#">മലയാളം</a>
 					</div>
 					<a href="registerForm.php" class="login">ആപേക്ഷ</a>
 				</div>
@@ -123,7 +127,7 @@
 						<div class="caption">
 							<p>നിലമ്പൂര്‍ നഗരസഭയുടെ അന്വേഷണമാണ് സ്‌നേഹപത്തായം എന്ന കാരുണ്യ പദ്ധതി, സാങ്കേതിക നൂലാമാലകളെല്ലാം തട്ടിനീക്കി സുമനസുകളുടെ സഹായത്തോടെ ദുരിതബാധിതരെ കണ്ടെത്തി അവര്‍ക്ക് ആവശ്യമുള്ള സഹായം എത്തിക്കുന്ന പദ്ധതിയാണിത്.</p>
 						</div>
-						<img src="images/demo.jpg" alt="">
+						<img src="images/aryadan-shoukath.jpg" alt="">
 						<h4>പേര്</h4>
 						<p>സ്താനം</p>
 					</li>

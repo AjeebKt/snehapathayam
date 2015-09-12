@@ -3,7 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){
@@ -22,7 +26,6 @@
  					}
  					google.maps.event.addDomListener(window, 'load', init_map);
 	</script>
-	<link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
 	<header>
@@ -70,7 +73,7 @@
 						</div>
 						<div class="group">
 							<label for="comments">അഭിപ്രായങ്ങൾ</label><br>
-							<textarea name="comments" id="comments" cols="30" rows="7" placeholder="അഭിപ്രായങ്ങൾ രെഖപെടുത്തുക.." ></textarea>
+							<textarea name="comments" id="comments" cols="30" rows="7" placeholder="അഭിപ്രായങ്ങൾ രേഖപെടുത്തുക.." ></textarea>
 						</div>
 						<button>അയക്കുക</button>
 					</div>

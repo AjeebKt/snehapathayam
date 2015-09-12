@@ -1,12 +1,12 @@
 @font-face {
-	font-family: karthika;
-	src: url('../fonts/mlkr.ttf');
+	font-family: Raghu;
+	src: url('../fonts/RaghuMalayalamSans.ttf');
 }
 html {
-	font-family: karthika;
+	font-family: Raghu;
 }
 body {
-	font-family: karthika;
+	font-family: Raghu;
 	background: #e0e3ec url(../images/bg.png) repeat top left;
 	color: #333;
 }
@@ -46,17 +46,25 @@ section {
 	margin: 35px 0 0;
 }
 .search {
-	width: 300px;
+	width: 350px;
 	float: left;
 	padding: 5px 0;
 }
 .search input {
 	width: 100%;
 	border: 0;
-	height: 20px;
+	/*height: 20px;*/ 
+	box-sizing: border-box;
 	background-color: #fff;
 	border-radius: 4px;
 	padding: 10px;
+}
+.en-ml {
+	float: right;
+	margin: 15px 0px 0px 15px;
+}
+.en-ml a {
+	color: #fff;
 }
 nav {
 	/*width: 100%;*/
@@ -252,7 +260,7 @@ nav ul li:hover a{
 .caption {
 	position: relative;
 	width: 95%;
-	background-color: #aaa;
+	background-color: #ccc;
 	margin: 0 auto;
 	border-radius: 5px;
 	min-height: 200px;
@@ -273,11 +281,12 @@ nav ul li:hover a{
   left: calc(50% - 20px);
   bottom: 0;
   border-width: 20px 20px 0;
-  border-color: #8D8D8D transparent transparent;
+  border-color: #C8C8C8 transparent transparent;
 }
 .caption p{
 	font-size: 18px;
 	padding: 20px 10px;
+	color: #333;
 }
 .site-map {
 	width: 100%;
