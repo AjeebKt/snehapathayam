@@ -1,0 +1,23 @@
+@font-face {
+	font-family:karthika;
+	src: url('../fonts/AnjaliOldLipi.ttf');
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+q:before,q:after {
+	content:'';
+}
+/* General Demo Style */
+body{
+	/*font-family:karthika;/
+	font-weight: 400;
+	font-size: 15px;
+	overflow-y: scroll;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
