@@ -1,14 +1,15 @@
 @font-face {
-	font-family: Raghu;
+	font-family: Raghu,sans-serif;
 	src: url('../fonts/RaghuMalayalamSans.ttf');
 }
 html {
-	font-family: Raghu;
+	font-family: Raghu,sans-serif;
 }
 body {
-	font-family: Raghu;
+	font-family: Raghu,sans-serif;
 	background: #e0e3ec url(../images/bg.png) repeat top left;
 	color: #333;
+	font-size: 16px;
 }
 header {
 	width: 100%;
@@ -46,7 +47,8 @@ section {
 	margin: 35px 0 0;
 }
 .search {
-	width: 350px;
+	display: none;
+	width: 300px;
 	float: left;
 	padding: 5px 0;
 }
@@ -65,11 +67,12 @@ section {
 }
 .en-ml a {
 	color: #fff;
+	text-decoration: none;
 }
 nav {
 	/*width: 100%;*/
 	float: left;
-	margin: 0 30px;
+	margin: 0 15px;
 }
 nav ul {
 	list-style: none;
@@ -88,7 +91,7 @@ nav ul li a{
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-size: 16pt;
+	font-size: 20pt;
 	-webkit-transition: color 0.2s ease;
 	-moz-transition: color 0.2s ease;
 	-ms-transition: color 0.2s ease;
@@ -108,7 +111,8 @@ nav ul li:hover a{
 	border-radius: 5px;
 	float: right;
 	margin-top: 4px;
-	line-height: 40px;
+	line-height: 1.5;
+	font-size: 16pt;
 	text-decoration: none;
 	color: #fff;
 	-webkit-transition: background-color 0.2s ease;
@@ -318,7 +322,11 @@ nav ul li:hover a{
 	text-decoration: underline;
 }
 .site-map-list li a h3{
+	font-size: 26px;
 	color: #ffdd00;
+}
+.site-map-list li a p{
+	font-size: 20px;
 }
 .address {
 	float: right;
@@ -341,7 +349,7 @@ nav ul li:hover a{
 }
 .connect-us {
 	float: left;
-	margin: 0 20px;
+	margin: 0 15px;
 }
 .connect-us h3 {
 	font-weight: lighter;
@@ -349,13 +357,13 @@ nav ul li:hover a{
 	color: #fff;
 }
 .connect-us h3 strong {
-	font-size: 20pt;
+	font-size: 14pt;
 }
 .connect-button {
 	width: 100px;
 	float: left;
 	height: 40px;
-	line-height: 45px;
+	line-height: 35px;
 	border: 0;
 	border-radius: 3px;
 	color: #fff;

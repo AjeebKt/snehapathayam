@@ -43,7 +43,7 @@
 				<div class="da-slide">
 					<h2>ഭക്ഷണം</h2>
 					<p>10 കുടുംബത്തിന് അരിയും 14 പലചരക്ക് സാധനങ്ങളും ഉള്‍പ്പെടുന്ന ഒരു മാസത്തേക്കുള്ള ഭക്ഷണക്കിറ്റ് - 10,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാൻ.</a>
+					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
 						<img src="images/05.jpg" alt="image01" />
 					</div>
@@ -51,7 +51,7 @@
 				<div class="da-slide">
 					<h2>മരുന്ന്</h2>
 					<p>10 രോഗികള്‍ക്ക് ഒരു മാസത്തേക്കുള്ള മരുന്നിന്റെ ചെലവ്- 50,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാൻ.</a>
+					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
 						<img src="images/03.jpg" alt="image01" />
 					</div>
@@ -59,7 +59,7 @@
 				<div class="da-slide">
 					<h2>വസ്ത്രം</h2>
 					<p>5 അംഗങ്ങളുള്ള 10 കുടുംബത്തിന് 1 വര്‍ഷത്തേക്കുള്ള 2 ജോഡി വസ്ത്രം- 30,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാൻ.</a>
+					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
 						<img src="images/01.jpg" alt="image01" />
 					</div>
@@ -128,7 +128,7 @@
 						</div>
 						<img src="images/aryadan-shoukath.jpg" alt="">
 						<h4>പേര്</h4>
-						<p>സ്താനം</p>
+						<p>തസ്തിക</p>
 					</li>
 					<li>
 						<div class="caption">
@@ -136,7 +136,7 @@
 						</div>
 						<img src="images/demo.jpg" alt="">
 						<h4>പേര്</h4>
-						<p>സ്താനം</p>
+						<p>തസ്തിക</p>
 					</li>
 					<li>
 						<div class="caption">
@@ -144,7 +144,7 @@
 						</div>
 						<img src="images/demo.jpg" alt="">
 						<h4>പേര്</h4>
-						<p>സ്താനം</p>
+						<p>തസ്തിക</p>
 					</li>
 				</ul>
 			</div>

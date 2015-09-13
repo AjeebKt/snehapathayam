@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style2.css" />
 	<link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
@@ -23,6 +25,9 @@
 				</nav>
 				<div class="search">
 					<input type="text">
+				</div>
+				<div class="en-ml">
+					<a href="./ml/about.php">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Register</a>
 			</div>
