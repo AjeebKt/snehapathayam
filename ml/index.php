@@ -32,8 +32,7 @@
 						<input type="text">
 					</div>
 					<div class="en-ml">
-						<a href="#">English</a>
-						<a href="#">മലയാളം</a>
+						<a href="../index.php">English</a>
 					</div>
 					<a href="registerForm.php" class="login">ആപേക്ഷ</a>
 				</div>
