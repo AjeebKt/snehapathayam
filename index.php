@@ -39,32 +39,32 @@
 			<!-- Codrops top bar -->
 			<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2>Easy management</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<h2>Food Kit</h2>
+					<p>10 Family of rice and grocery items, including a 14-month Food Kit - 10,000</p>
 					<a href="donerForm.php" class="da-link">Donate</a>
 					<div class="da-img">
 						<img src="images/05.jpg" alt="image01" />
 					</div>
 				</div>
 				<div class="da-slide">
-					<h2>Revolution</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<h2>Medicins</h2>
+					<p>The cost of drugs to the dire situation patients for one month -  50,000</p>
 					<a href="donerForm.php" class="da-link">Donate</a>
 					<div class="da-img">
 						<img src="images/03.jpg" alt="image01" />
 					</div>
 				</div>
 				<div class="da-slide">
-					<h2>Warm welcome</h2>
-					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+					<h2>Food Kit</h2>
+					<p>10 Family of rice and grocery items, including a 14-month Food Kit - 10,000</p>
 					<a href="donerForm.php" class="da-link">Donate</a>
 					<div class="da-img">
 						<img src="images/01.jpg" alt="image01" />
 					</div>
 				</div>
 				<div class="da-slide">
-					<h2>Quality Control</h2>
-					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<h2>Clothes for dire family</h2>
+					<p>5 members of the family of 1-year and 2 pairs of clothes 30,000</p>
 					<a href="donerForm.php" class="da-link">Donate</a>
 					<div class="da-img">
 						<img src="images/04.jpg" alt="image01" />
