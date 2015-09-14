@@ -63,7 +63,7 @@ section {
 }
 .en-ml {
 	float: right;
-	margin: 15px 0px 0px 15px;
+	margin: 10px 0px 0px 15px;
 }
 .en-ml a {
 	color: #fff;
@@ -342,7 +342,7 @@ nav ul li:hover a{
 	float: left;
 }
 .social-links {
-	max-width: 600px;
+	max-width: 605px;
 	margin: 30px auto;
 	overflow: hidden;
 	text-align: center;
