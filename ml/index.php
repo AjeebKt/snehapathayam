@@ -17,7 +17,7 @@
 		<header>
 			<div class="container">
 				<div class="logo">
-					<img src="images/path1.png" alt="">
+					<img src="../images/path1.png" alt="">
 				</div>
 				<div class="menu">
 					<nav>
@@ -45,7 +45,7 @@
 					<p>10 കുടുംബത്തിന് അരിയും 14 പലചരക്ക് സാധനങ്ങളും ഉള്‍പ്പെടുന്ന ഒരു മാസത്തേക്കുള്ള ഭക്ഷണക്കിറ്റ് - 10,000</p>
 					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
-						<img src="images/05.jpg" alt="image01" />
+						<img src="../images/120.jpg" alt="image01" />
 					</div>
 				</div>
 				<div class="da-slide">
@@ -53,7 +53,7 @@
 					<p>10 രോഗികള്‍ക്ക് ഒരു മാസത്തേക്കുള്ള മരുന്നിന്റെ ചെലവ്- 50,000</p>
 					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
-						<img src="images/03.jpg" alt="image01" />
+						<img src="../images/101.jpg" alt="image01" />
 					</div>
 				</div>
 				<div class="da-slide">
@@ -61,7 +61,7 @@
 					<p>5 അംഗങ്ങളുള്ള 10 കുടുംബത്തിന് 1 വര്‍ഷത്തേക്കുള്ള 2 ജോഡി വസ്ത്രം- 30,000</p>
 					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
 					<div class="da-img">
-						<img src="images/01.jpg" alt="image01" />
+						<img src="../images/110.jpg" alt="image01" />
 					</div>
 				</div>
 				<nav class="da-arrows">
@@ -126,7 +126,7 @@
 						<div class="caption">
 							<p>നിലമ്പൂര്‍ നഗരസഭയുടെ അന്വേഷണമാണ് സ്‌നേഹപത്തായം എന്ന കാരുണ്യ പദ്ധതി, സാങ്കേതിക നൂലാമാലകളെല്ലാം തട്ടിനീക്കി സുമനസുകളുടെ സഹായത്തോടെ ദുരിതബാധിതരെ കണ്ടെത്തി അവര്‍ക്ക് ആവശ്യമുള്ള സഹായം എത്തിക്കുന്ന പദ്ധതിയാണിത്.</p>
 						</div>
-						<img src="images/aryadan-shoukath.jpg" alt="">
+						<img src="../images/aryadan-shoukath.jpg" alt="">
 						<h4>പേര്</h4>
 						<p>തസ്തിക</p>
 					</li>
@@ -134,7 +134,7 @@
 						<div class="caption">
 							<p>ആവശ്യത്തിന് വസ്ത്രങ്ങളില്ലാത്ത കുടുംബങ്ങള്‍ക്ക് പുതുവസ്ത്രമായും സ്‌നേഹപത്തായം തുറക്കും. പണ്ട് പഞ്ഞമാസത്തേക്കുള്ള വിഭവങ്ങള്‍ സൂക്ഷിച്ചിരുന്ന പത്തായത്തില്‍ സുമനസുകളുടെ സഹായത്തോടെ നമുക്കു ചുറ്റുമുള്ള പാവങ്ങള്‍ക്കായുള്ള വിഭവങ്ങള്‍ നിറക്കുകയാണ് നമ്മള്‍. </p>
 						</div>
-						<img src="images/demo.jpg" alt="">
+						<img src="../images/demo.jpg" alt="">
 						<h4>പേര്</h4>
 						<p>തസ്തിക</p>
 					</li>
@@ -142,7 +142,7 @@
 						<div class="caption">
 							<p>വിലകൂടിയ കാന്‍സര്‍ മരുന്നുകള്‍ വാങ്ങാന്‍ പണമില്ലാതെ ചികിത്സ നിലച്ചവര്‍ക്ക് മരുന്നായും ഭക്ഷണത്തിനു പ്രയാസമനുഭവിക്കുന്നവര്‍ക്ക്  മുന്നില്‍ ഭക്ഷണമായും ആവശ്യത്തിന് വസ്ത്രങ്ങളില്ലാത്ത കുടുംബങ്ങള്‍ക്ക് പുതുവസ്ത്രമായും സ്‌നേഹപത്തായം തുറക്കും.</p>
 						</div>
-						<img src="images/demo.jpg" alt="">
+						<img src="../images/demo.jpg" alt="">
 						<h4>പേര്</h4>
 						<p>തസ്തിക</p>
 					</li>
