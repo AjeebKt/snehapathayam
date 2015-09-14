@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){
@@ -22,7 +25,6 @@
  					}
  					google.maps.event.addDomListener(window, 'load', init_map);
 	</script>
-	<link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
 	<header>
@@ -41,6 +43,9 @@
 				</nav>
 				<div class="search">
 					<input type="text">
+				</div>
+				<div class="en-ml">
+					<a href="./ml/contact.php">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Register</a>
 			</div>

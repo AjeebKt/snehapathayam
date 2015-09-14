@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 	background: #e0e3ec url(../images/bg.png) repeat top left;
 	color: #333;
+	font-size: 16px;
 }
 header {
 	width: 100%;
@@ -39,6 +40,7 @@ section {
 	margin: 35px 0 0;
 }
 .search {
+	display: none;
 	width: 300px;
 	float: left;
 	padding: 5px 0;
@@ -46,15 +48,24 @@ section {
 .search input {
 	width: 100%;
 	border: 0;
-	height: 20px;
+	/*height: 20px;*/
 	background-color: #fff;
 	border-radius: 4px;
+	box-sizing: border-box;
 	padding: 10px;
+}
+.en-ml {
+	float: right;
+	margin: 10px 0 0 15px;
+}
+.en-ml a {
+	color: #fff;
+	font-size: 16pt;
 }
 nav {
 	/*width: 100%;*/
 	float: left;
-	margin: 0 30px;
+	margin: 0 15px;
 }
 nav ul {
 	list-style: none;
