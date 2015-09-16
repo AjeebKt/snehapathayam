@@ -60,7 +60,7 @@ section {
 }
 .en-ml a {
 	color: #fff;
-	font-size: 16pt;
+	/*font-size: 16pt;*/
 }
 nav {
 	/*width: 100%;*/
@@ -344,6 +344,7 @@ nav ul li:hover a{
 }
 .social-net img {
 	border-radius: 50%;
+	background-color: #cfb300;
 }
 /*.connect {
 	width: 100%;

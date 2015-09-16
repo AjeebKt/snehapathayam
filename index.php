@@ -34,7 +34,7 @@
 				<div class="en-ml">
 					<a href="./ml/index.php">മലയാളം</a>
 				</div>
-				<a href="registerForm.php" class="login">Register</a>
+				<a href="registerForm.php" class="login">Application</a>
 			</div>
 		</div>
 	</header>
