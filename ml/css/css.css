@@ -1,3 +1,11 @@
+*::-moz-selection {
+    background-color: #cfb300;
+    color: #FFF;
+}
+*::selection {
+	background-color: #cfb300;
+	color: #fff;
+}
 @font-face {
 	font-family: Raghu,sans-serif;
 	src: url('../fonts/RaghuMalayalamSans.ttf');

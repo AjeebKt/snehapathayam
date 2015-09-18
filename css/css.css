@@ -1,3 +1,11 @@
+*::-moz-selection {
+    background-color: #cfb300;
+    color: #FFF;
+}cfb300
+*::selection {
+	background-color: #cfb300;
+	color: #fff;
+}
 body {
 	font-family: sans-serif;
 	background: #e0e3ec url(../images/bg.png) repeat top left;

@@ -38,21 +38,21 @@
 			<ul class="what-give">
 				<li>
 					<a href="donerForm.php">
-						<img src="images/05.jpg" alt="">
+						<img src="./images/crp2.jpg" alt="">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto fugiat libero a voluptatem officia nihil maiores dolorem ab amet exercitationem, dolore delectus, ipsam expedita tempore! Architecto esse, doloremque deleniti sequi!</p>
 						<div>Donate</div>
 					</a>
 				</li>
 				<li>
 					<a href="donerForm.php">
-						<img src="images/05.jpg" alt="">
+						<img src="./images/crp1.jpg" alt="">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iure corporis sunt suscipit aspernatur numquam, asperiores veritatis delectus totam nemo, in eum iste mollitia. Magnam dolorem sint nobis odio cupiditate!</p>
 						<div>Donate</div>
 					</a>
 				</li>
 				<li>
 					<a href="donerForm.php">
-						<img src="images/05.jpg" alt="">
+						<img src="./images/crp1.jpg" alt="">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt, iusto? Error sed cupiditate culpa quidem accusantium placeat voluptates suscipit, veniam et porro fuga tempore minus est dolorum excepturi omnis.</p>
 						<div>Donate</div>
 					</a>
