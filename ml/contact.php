@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style2.css" />
 	<link rel="stylesheet" type="text/css" href="css/css.css" />
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){
 		 		var myOptions = {
@@ -25,7 +25,7 @@
 		 					});
  					}
  					google.maps.event.addDomListener(window, 'load', init_map);
-	</script>
+	</script> -->
 </head>
 <body>
 	<header>
@@ -53,7 +53,8 @@
 		</div>
 	</header>
 	<section class="map">
-		<div id="gmap_canvas"></div>
+		<img src="../images/map.png" alt="">
+		<!-- <div id="gmap_canvas"></div> -->
 	</section>
 	<section>
 		<div class="container">.
