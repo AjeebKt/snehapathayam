@@ -40,21 +40,21 @@
 				<li>
 					<a href="donerForm.php">
 						<img src="../images/crp2.jpg" alt="">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto fugiat libero a voluptatem officia nihil maiores dolorem ab amet exercitationem, dolore delectus, ipsam expedita tempore! Architecto esse, doloremque deleniti sequi!</p>
+						<p>നഗരസഭ നടത്തിയ ഓണാഘോഷത്തില്‍ അളക്കല്‍ കോളനി മൂപ്പന്‍ ചാത്തനും ഭാര്യ ചന്ദ്രികയും കാട്ടില്‍ നിന്നും ശേഖരിച്ച തേനും കുടമ്പുളിയും സമ്മാനിച്ചാണ് !</p>
 						<div>സഹായിക്കാൻ.</div>
 					</a>
 				</li>
 				<li>
 					<a href="donerForm.php">
 						<img src="../images/crp1.jpg" alt="">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iure corporis sunt suscipit aspernatur numquam, asperiores veritatis delectus totam nemo, in eum iste mollitia. Magnam dolorem sint nobis odio cupiditate!</p>
+						<p>വിവിധ തുറകളില്‍ നിന്നായി നരവധി പേരാണ് സഹായവുമായെത്തിയത്. പണമായി സ്വീകരിക്കാതെ മരുന്നും വസത്രവും ഭക്ഷണവുമായാണ് സഹായങ്ങള്‍ ശേഖരിച്ചത്</p>
 						<div>സഹായിക്കാൻ.</div>
 					</a>
 				</li>
 				<li>
 					<a href="donerForm.php">
 						<img src="../images/crp1.jpg" alt="">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt, iusto? Error sed cupiditate culpa quidem accusantium placeat voluptates suscipit, veniam et porro fuga tempore minus est dolorum excepturi omnis.</p>
+						<p>സ്‌നേഹപത്തായത്തിലേക്കുള്ള വിഭവ സമാഹരണം ഉദ്ഘാടനം ചെയ്തത്. വിവിധ തുറകളില്‍ നിന്നായി നരവധി പേരാണ് സഹായവുമായെത്തിയത്. പണമായി സ്വീകരിക്</p>
 						<div>സഹായിക്കാൻ.</div>
 					</a>
 				</li>
