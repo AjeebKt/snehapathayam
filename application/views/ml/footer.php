@@ -55,9 +55,9 @@
 				</div>
 				<a class="connect-button">ബന്ധപെടൽ</a>
 				<div class="social-net">
-					<img src="images/twitter.png" alt="">
-					<img src="images/twitter.png" alt="">
-					<img src="images/twitter.png" alt="">
+					<img src="<?php echo base_url('images/twitter.png');?> " alt="">
+					<img src="<?php echo base_url('images/twitter.png');?> " alt="">
+					<img src="<?php echo base_url('images/twitter.png');?> " alt="">
 				</div>
 			</div>
 		</div>

@@ -56,7 +56,11 @@ $route['about'] = 'home/about';
 $route['donate'] = 'home/donate';
 $route['contact'] = 'home/contact';
 
-
+$route['ml'] = 'home/ml_home';
+$route['ml/home'] = 'home/ml_home';
+$route['ml/about'] = 'home/ml_about';
+$route['ml/donate'] = 'home/ml_donate';
+$route['ml/contact'] = 'home/ml_contact';
 
 /*admin routes*/
 

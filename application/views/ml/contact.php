@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>About Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="css/demo.css" />
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link rel="stylesheet" type="text/css" href="css/css.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/demo.css'); ?>" />
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/normalize.css'); ?>" />
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/style2.css'); ?>" />
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/css.css'); ?>" />
 	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){
@@ -31,7 +31,7 @@
 	<header>
 		<div class="container">
 			<div class="logo">
-				<img src="images/path1.png" alt="">
+				<img src="<?php echo base_url('images/path1.png');?> " alt="">
 			</div>
 			<div class="menu">
 				<nav>
