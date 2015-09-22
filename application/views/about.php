@@ -27,7 +27,7 @@
 					<input type="text">
 				</div>
 				<div class="en-ml">
-					<a href="./ml/about.php">മലയാളം</a>
+					<a href="./ml/about">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Register</a>
 			</div>

@@ -29,7 +29,7 @@
 				<div class="en-ml">
 					<a href="./ml/registerForm.php">മലയാളം</a>
 				</div>
-				<a href="registerForm.php" class="login">Register</a>
+				<a href="./registerForm" class="login">Register</a>
 			</div>
 		</div>
 	</header>

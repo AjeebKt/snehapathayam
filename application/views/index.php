@@ -32,7 +32,7 @@
 					<input type="text">
 				</div>
 				<div class="en-ml">
-					<a href="./ml/index.php">മലയാളം</a>
+					<a href="./ml/home">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Application</a>
 			</div>

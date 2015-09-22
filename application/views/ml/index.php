@@ -22,19 +22,19 @@
 				<div class="menu">
 					<nav>
 						<ul class="navigation-menu">
-							<li><a href="index.php">ഹൊം</a></li>
-							<li><a href="about.php">എന്തിന്</a></li>
-							<li><a href="give.php">നല്കാം</a></li>
-							<li><a href="contact.php">ബന്ധപെടൽ</a></li>
+							<li><a href="home">ഹൊം</a></li>
+							<li><a href="donate">നല്കാം</a></li>
+							<li><a href="about">എന്തിന്</a></li>
+							<li><a href="contact">ബന്ധപെടൽ</a></li>
 						</ul>
 					</nav>
 					<div class="search">
 						<input type="text">
 					</div>
 					<div class="en-ml">
-						<a href="../index.php">English</a>
+						<a href="../home">English</a>
 					</div>
-					<a href="registerForm.php" class="login">ആപേക്ഷ</a>
+					<a href="registerForm" class="login">ആപേക്ഷ</a>
 				</div>
 			</div>
 		</header>
