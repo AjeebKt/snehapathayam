@@ -4,14 +4,14 @@
 		<meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-      <link rel="stylesheet" type="text/css" href="css/demo.css" />
-      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-      <link rel="stylesheet" type="text/css" href="css/style2.css" />
-		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/demo.css'); ?>" />
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/normalize.css'); ?>" />
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/style2.css'); ?>" />
+		<script type="text/javascript" src="<?php echo base_url('mal/js/modernizr.custom.28468.js'); ?>"></script>
 		<noscript>
-			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
+			<link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/nojs.css'); ?>" />
 		</noscript>
-        <link rel="stylesheet" type="text/css" href="css/css.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/css.css'); ?>" />
     </head>
     <body>
 		<header>
@@ -71,8 +71,8 @@
 			</div>
 		</section>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript" src="<?php echo base_url('mal/js/jquery-1.7.1.min.js'); ?>"></script>
+		<script type="text/javascript" src="<?php echo base_url('mal/js/jquery.cslider.js'); ?>"></script>
 		<script type="text/javascript">
 			$(function() {
 			
