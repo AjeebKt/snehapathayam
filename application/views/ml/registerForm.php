@@ -20,8 +20,8 @@
 				<nav>
 					<ul class="navigation-menu">
 						<li><a href="index.php">ഹൊം</a></li>
-						<li><a href="give.php">നല്കാം</a></li>
 						<li><a href="about.php">എന്തിന്</a></li>
+						<li><a href="give.php">നല്കാം</a></li>
 						<li><a href="contact.php">ബന്ധപെടൽ</a></li>
 					</ul>
 				</nav>
