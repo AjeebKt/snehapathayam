@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link rel="stylesheet" type="text/css" href="css/css.css2" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
 	<header>
