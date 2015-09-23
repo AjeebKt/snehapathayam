@@ -40,6 +40,10 @@ class Home extends CI_Controller
 		$this->load->view('footer');
 
 	}
+	public function form_donar()
+	{
+		$this->load->view('donerForm');
+	}
 
 	public function ml_home()
 	{
@@ -66,7 +70,11 @@ class Home extends CI_Controller
 	{
 		$this->load->view('ml/contact');
 		$this->load->view('ml/footer');
+	}
 
+	public function ml_form_donar()
+	{
+		$this->load->view('ml/donerForm');
 	}
 }
  ?>
