@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<link rel="stylesheet" type="text/css" href="css/theme.css" />
 </head>
 <body>
 	<header>
@@ -18,8 +18,8 @@
 				<nav>
 					<ul class="navigation-menu">
 						<li><a href="./home">Home</a></li>
-						<li><a href="./donate">Donate</a></li>
 						<li><a href="./about">About</a></li>
+						<li><a href="./donate">Donate</a></li>
 						<li><a href="./contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -27,7 +27,7 @@
 					<input type="text">
 				</div>
 				<div class="en-ml">
-					<a href="./ml/donerForm.php">മലയാളം</a>
+					<a href="./ml/donerForm">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Register</a>
 			</div>

@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="css/demo.css" />
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-	<noscript>
-		<link rel="stylesheet" type="text/css" href="css/nojs.css" />
-	</noscript>
-      <link rel="stylesheet" type="text/css" href="css/css.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/slippry.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css" />
+	<script src="./js/jquery-1.7.1.min.js"></script>
+	<script src="./js/slippry.js"></script>
+	<script>
+		$(function() {
+			var demo1 = $("#demo1").slippry({
+				// transition: 'fade',
+				// useCSS: true,
+				// speed: 1000,
+				// pause: 3000,
+				// auto: true,
+				// preload: 'visible',
+				// autoHover: false
+			});
+		});
+	</script>
 </head>
 <body>
 	<header>
@@ -23,8 +33,8 @@
 				<nav>
 					<ul class="navigation-menu">
 						<li><a href="./home">Home</a></li>
-						<li><a href="./donate">Donate</a></li>
 						<li><a href="./about">About</a></li>
+						<li><a href="./donate">Donate</a></li>
 						<li><a href="./contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -32,57 +42,22 @@
 					<input type="text">
 				</div>
 				<div class="en-ml">
-					<a href="./ml/index.php">മലയാളം</a>
+					<a href="./ml/home">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Application</a>
 			</div>
 		</div>
 	</header>
-	<section class="slider">
-		<!-- Codrops top bar -->
-		<div id="da-slider" class="da-slider">
-			<div class="da-slide">
-				<h2>Food Kit</h2>
-				<p>10 Family of rice and grocery items, including a 14-month Food Kit - 10,000</p>
-				<a href="donerForm.php" class="da-link">Donate</a>
-				<div class="da-img">
-					<img src="images/120.jpg" alt="image01" />
-				</div>
-			</div>
-			<div class="da-slide">
-				<h2>Medicins</h2>
-				<p>The cost of drugs to the dire situation patients for one month -  50,000</p>
-				<a href="donerForm.php" class="da-link">Donate</a>
-				<div class="da-img">
-					<img src="images/101.jpg" alt="image01" />
-				</div>
-			</div>
-			<div class="da-slide">
-				<h2>Clothes for dire family</h2>
-				<p>5 members of the family of 1-year and 2 pairs of clothes 30,000</p>
-				<a href="donerForm.php" class="da-link">Donate</a>
-				<div class="da-img">
-					<img src="images/110.jpg" alt="image01" />
-				</div>
-			</div>
-			<nav class="da-arrows">
-				<span class="da-arrows-prev"></span>
-				<span class="da-arrows-next"></span>
-			</nav>
-		</div>
-	</section>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.cslider.js"></script>
-	<script type="text/javascript">
-		$(function() {
-		
-			$('#da-slider').cslider({
-				autoplay	: true,
-			});
-		
-		});
-	</script>
+	<section class="demo_wrapper">
+		<article class="demo_block">
+		<ul id="demo1">
+			<!-- <li><a href="#slide1"><img src="img/image-1.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li> -->
+			<li><a href="#slide1"><img src="./images/image-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex aut, laborum tempora obcaecati earum nesciunt totam ad nulla fuga nam veniam. <a class='button-donate' href='donerForm'>Donate</a>"></a></li>
+			<li><a href="#slide2"><img src="./images/image-2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni reiciendis omnis eius quisquam inventore suscipit ipsum dolor, ad cumque. <a class='button-donate' href='donerForm'>Donate</a>"></a></li>
+			<li><a href="#slide3"><img src="./images/image-4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis rem accusantium omnis dolorum eius assumenda voluptate, alias suscipit. <a class='button-donate' href='donerForm'>Donate</a>"></a></li>
+		</ul>
+		</article>
+	</section>		
 	<section class="help-sec">
 		<!-- <div class="container"> -->
 			<div class="help-head">

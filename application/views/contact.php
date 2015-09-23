@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<link rel="stylesheet" type="text/css" href="css/theme.css" />
 	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){
@@ -36,8 +36,8 @@
 				<nav>
 					<ul class="navigation-menu">
 						<li><a href="./home">Home</a></li>
-						<li><a href="./donate">Donate</a></li>
 						<li><a href="./about">About</a></li>
+						<li><a href="./donate">Donate</a></li>
 						<li><a href="./contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -45,7 +45,7 @@
 					<input type="text">
 				</div>
 				<div class="en-ml">
-					<a href="./ml/contact.php">മലയാളം</a>
+					<a href="./ml/contact">മലയാളം</a>
 				</div>
 				<a href="registerForm.php" class="login">Register</a>
 			</div>
