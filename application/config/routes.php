@@ -55,12 +55,14 @@ $route['home'] = 'home';
 $route['about'] = 'home/about';
 $route['donate'] = 'home/donate';
 $route['contact'] = 'home/contact';
+$route['donarForm'] = 'home/form_donar';
 
 $route['ml'] = 'home/ml_home';
 $route['ml/home'] = 'home/ml_home';
 $route['ml/about'] = 'home/ml_about';
 $route['ml/donate'] = 'home/ml_donate';
 $route['ml/contact'] = 'home/ml_contact';
+$route['ml/donarForm'] = 'home/ml_form_donar';
 
 /*admin routes*/
 
