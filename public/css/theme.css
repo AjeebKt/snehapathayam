@@ -129,12 +129,19 @@ nav ul li:hover a{
 	margin: 0;
 }
 .button-donate {
-	float: left;
 	width: 120px;
-	height: 40px;
+	padding: 10px 15px;
+	border-radius: 5px;
 	color: #fff;
 	font-size: 20px;
 	background-color: #cfb300;
+	display: block;
+	margin-top: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+.button-donate:hover {
+	background-color: #ae9700;
 }
 .help-sec {
 	line-height: 120px;
