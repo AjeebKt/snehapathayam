@@ -2,16 +2,26 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/demo.css'); ?>" />
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/normalize.css'); ?>" />
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/style2.css'); ?>" />
-		<script type="text/javascript" src="<?php echo base_url('mal/js/modernizr.custom.28468.js'); ?>"></script>
-		<noscript>
-			<link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/nojs.css'); ?>" />
-		</noscript>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/css.css'); ?>" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('../css/normalize.css'); ?>" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('../css/demo.css'); ?>" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('../css/slippry.css'); ?>" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/theme.css'); ?>" />
+		<script src="../js/jquery-1.7.1.min.js"></script>
+		<script src="../js/slippry.js"></script>
+		<script>
+		$(function() {
+				var demo1 = $("#demo1").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+			});
+		</script>
     </head>
     <body>
 		<header>
@@ -38,50 +48,16 @@
 				</div>
 			</div>
 		</header>
-    	<section class="slider">
-			<div id="da-slider" class="da-slider">
-				<div class="da-slide">
-					<h2>ഭക്ഷണം</h2>
-					<p>10 കുടുംബത്തിന് അരിയും 14 പലചരക്ക് സാധനങ്ങളും ഉള്‍പ്പെടുന്ന ഒരു മാസത്തേക്കുള്ള ഭക്ഷണക്കിറ്റ് - 10,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
-					<div class="da-img">
-						<img src="../images/120.jpg" alt="image01" />
-					</div>
-				</div>
-				<div class="da-slide">
-					<h2>മരുന്ന്</h2>
-					<p>10 രോഗികള്‍ക്ക് ഒരു മാസത്തേക്കുള്ള മരുന്നിന്റെ ചെലവ്- 50,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
-					<div class="da-img">
-						<img src="../images/101.jpg" alt="image01" />
-					</div>
-				</div>
-				<div class="da-slide">
-					<h2>വസ്ത്രം</h2>
-					<p>5 അംഗങ്ങളുള്ള 10 കുടുംബത്തിന് 1 വര്‍ഷത്തേക്കുള്ള 2 ജോഡി വസ്ത്രം- 30,000</p>
-					<a href="donerForm.php" class="da-link">സഹായിക്കാം</a>
-					<div class="da-img">
-						<img src="../images/110.jpg" alt="image01" />
-					</div>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			</div>
+		<section class="demo_wrapper">
+			<article class="demo_block">
+			<ul id="demo1">
+				<!-- <li><a href="#slide1"><img src="img/image-1.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li> -->
+				<li><a href="#slide1"><img src="../images/image-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex aut, laborum tempora obcaecati earum nesciunt totam ad nulla fuga nam veniam. "></a></li>
+				<li><a href="#slide2"><img src="../images/image-2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni reiciendis omnis eius quisquam inventore suscipit ipsum dolor, ad cumque "></a></li>
+				<li><a href="#slide3"><img src="../images/image-4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis rem accusantium omnis dolorum eius assumenda voluptate, alias suscipit qu"></a></li>
+			</ul>
+			</article>
 		</section>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="<?php echo base_url('mal/js/jquery-1.7.1.min.js'); ?>"></script>
-		<script type="text/javascript" src="<?php echo base_url('mal/js/jquery.cslider.js'); ?>"></script>
-		<script type="text/javascript">
-			$(function() {
-			
-				$('#da-slider').cslider({
-					autoplay	: true,
-				});
-			
-			});
-		</script>
 		<section class="help-sec">
 			<div class="help-head">
 				<div class="align-h1">

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>slippry demo</title>
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+		<script src="./js/jquery-1.7.1.min.js"></script>
+		<script src="./js/slippry.js"></script>
+		<!-- <script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script> -->
+		<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/slippry.css">
+	</head>
+	<body>		
+		<section class="demo_wrapper">
+			<article class="demo_block"><br><br>
+			<ul id="demo1">
+				<!-- <li><a href="#slide1"><img src="img/image-1.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li> -->
+				<li><a href="#slide1"><img src="img/image-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex aut, laborum tempora obcaecati earum nesciunt totam ad nulla fuga nam veniam. "></a></li>
+				<li><a href="#slide2"><img src="img/image-2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni reiciendis omnis eius quisquam inventore suscipit ipsum dolor, ad cumque "></a></li>
+				<li><a href="#slide3"><img src="img/image-4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis rem accusantium omnis dolorum eius assumenda voluptate, alias suscipit qu"></a></li>
+			</ul>
+			</article>
+		</section>		
+
+		<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				// $('.stop').click(function () {
+				// 	demo1.stopAuto();
+				// });
+
+				// $('.start').click(function () {
+				// 	demo1.startAuto();
+				// });
+
+				// $('.prev').click(function () {
+				// 	demo1.goToPrevSlide();
+				// 	return false;
+				// });
+				// $('.next').click(function () {
+				// 	demo1.goToNextSlide();
+				// 	return false;
+				// });
+				// $('.reset').click(function () {
+				// 	demo1.destroySlider();
+				// 	return false;
+				// });
+				// $('.reload').click(function () {
+				// 	demo1.reloadSlider();
+				// 	return false;
+				// });
+				// $('.init').click(function () {
+				// 	demo1 = $("#demo1").slippry();
+				// 	return false;
+				// });
+			});
+		</script>
+	</body>
+</html>

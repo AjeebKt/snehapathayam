@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/demo.css'); ?>" />
 	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/normalize.css'); ?>" />
 	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/style2.css'); ?>" />
-	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/css.css'); ?>" />
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/theme.css'); ?>" />
 	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 		 function init_map(){

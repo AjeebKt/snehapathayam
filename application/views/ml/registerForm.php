@@ -8,7 +8,7 @@
 	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/demo.css'); ?>" />
 	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/normalize.css'); ?>" />
 	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/style2.css'); ?>" />
-	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/css.css'); ?>" />
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('mal/css/theme.css'); ?>" />
 </head>
 <body>
 	<header>
